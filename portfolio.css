@@ -1,0 +1,102 @@
+.header{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.end button{
+    margin-right: 30px;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: blueviolet;
+   cursor: pointer;
+   width: 92px;
+   border: 1px solid transparent;
+   padding: 8x 2px;
+   color: white;
+}
+.end button:hover{
+    border-color:  white;
+    padding: 8px 2px;
+    
+}
+.intro{
+    width: 700px;
+    margin-left: 40px;
+    
+}
+.greet{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.descript{
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+body{
+    padding-top: 100px;
+    background-color: lavender;
+}
+.linki img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.reach{
+    background-color: blueviolet ; 
+    color: white;
+    margin-right: 25px;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.white{
+    background-color: white;
+    margin-right: 25px;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 10px 8px;
+    border-radius: 6px;
+    border: none;
+    color:  blueviolet ;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    margin-right: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}

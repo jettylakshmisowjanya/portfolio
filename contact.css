@@ -1,0 +1,80 @@
+.header{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.hi{
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.end button{
+    margin-right: 30px;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: blueviolet;
+   cursor: pointer;
+   width: 92px;
+   border: 1px solid transparent;
+   padding: 8x 2px;
+   color: white;
+}
+.end button:hover{
+    border-color:  white;
+    padding: 8px 2px;
+    
+}img{
+    margin-right: 30px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(211, 171, 248);
+    margin-bottom: 50px;
+    height: 300px;
+}
+.projects{
+    background-color: rgb(211, 171, 248);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.achieve{
+    background-color: rgb(211, 171, 248);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contact{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact div{
+    margin-bottom: 10px;
+}
+body{
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 50px;
+}
